@@ -2,6 +2,7 @@
 let images = document.querySelectorAll('img');
 let i = 1;
 
+//  changing to imagies that are right in the gallery
 document.querySelector('#to-right').addEventListener('click', () => {
 	setTimeout(() => {
 		if (i < 2) {
@@ -11,6 +12,7 @@ document.querySelector('#to-right').addEventListener('click', () => {
    } }, 1500); 
 });
 
+// changing to imagies that are left in the gallery
 document.querySelector('#to-left').addEventListener('click', () => {
 	setTimeout( () => {
 		if (i > 0) {
