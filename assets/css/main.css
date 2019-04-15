@@ -110,14 +110,15 @@ hr {
 	z-index: 1000;
 	top: 50%;
 	transform: translateY(-50%);
+	cursor: pointer;
 }
 
 #to-right {
-	right: 0%;
+	right: -10%;
 }
 
 #to-left {
-	left: 0;
+	left: -10%;
 }
 
 .hide {
